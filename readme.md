@@ -24,3 +24,6 @@ In the browser enter http://localhost:8080 and the message “Hello World ruby l
 
 This project was deployed in Railway, the connection to the Railway account and access to the repository in Github was done.   
 Once deployed I generate the link: https://aplication-ruby-production.up.railway.app/
+
+![image](https://github.com/user-attachments/assets/e8505e33-63a8-4dd2-83a6-1f74ce6bb64f)
+
