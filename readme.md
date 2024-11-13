@@ -6,7 +6,9 @@ This is a basic "Hello World" project in the Ruby programming language. We will 
 
 It is required to verify the installation of the Ruby extension on your computer. To check, open a terminal and run:
 
-` ruby --version `
+```bash
+ruby --version
+```
 
 If Ruby is not installed, download it from [https://rubyinstaller.org/](https://rubyinstaller.org/).
 
@@ -14,11 +16,15 @@ If Ruby is not installed, download it from [https://rubyinstaller.org/](https://
 
 1. Locate a folder of your choice and clone the project with the following command:
 
-    ` git clone https://github.com/Karen020701/aplication-ruby.git `
+```bash
+git clone https://github.com/Karen020701/aplication-ruby.git
+```
 
 2. To run the project locally, navigate to the project folder and execute:
 
-    ` ruby aplicationRuby.rb `
+```bash
+ruby aplicationRuby.rb
+```
 
 3. Then, in your browser, go to [http://localhost:8080](http://localhost:8080). You should see the message: **"Hello World ruby language"**.
 
@@ -28,11 +34,15 @@ To run this project in a Docker container:
 
 1. First, pull the Docker image. In the project directory, download the image with the command:
 
-    ` docker pull karenchicaiza/aplicationruby `
+```bash
+docker pull karenchicaiza/aplicationruby
+```
 
 2. To start the container, use the command:
 
-    ` docker run -p 8080:8080 karenchicaiza/aplicationruby `
+```bash
+docker run -p 8080:8080 karenchicaiza/aplicationruby
+```
 
 3. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World ruby language"**.
 
